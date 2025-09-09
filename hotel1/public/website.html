@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Palmwave Beach House</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="background-image: url('https://images.unsplash.com/photo-1526786220381-1d21eedf92bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwaG90ZWxzfHwwfHx8fDE2MzExNTUzOTY&ixlib=rb-1.2.1&q=80&w=1080'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+  <header>
+    <nav class="navbar">
+      <div class="logo">Palmwave Beach House</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="darkModeToggle">🌓</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero fade" id="home">
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h1 id="typed-text"></h1>
+      <p>Palmwave Beach House – "Tides of Tranquility, Only at Palmwave."</p>
+      <a href="#booking" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <section class="section fade" id="rooms" style="background: url('https://wallpapercave.com/wp/wp3598832.jpg') center/cover no-repeat;">
+    <div class="overlay"></div>
+   <h2>Our Rooms</h2>
+   <div class="room-cards">
+      <div class="card zoom">
+        <img src="http://alayahotels.com/alayaresortubud/wp-content/uploads/sites/2/2017/04/alaya-ubud-deluxe-room-large-3.jpg" alt="Deluxe Room" />
+        <h3>Deluxe Room</h3>
+        <p>₹5000/night – WiFi, AC, Sea View</p>
+      </div>
+      <div class="card zoom">
+        <img src="https://www.grandlordhotel.com/medias/room/big/86/executive-01.jpg" alt="Suite" />
+        <h3>Executive Suite</h3>
+        <p>₹8000/night – Breakfast, Pool Access</p>
+      </div>
+      <div class="card zoom">
+        <img src="https://www.riversideparkhotel.com/wp-content/uploads/2022/02/Photo-071.jpg" alt="Family Room" />
+        <h3>Family Room</h3>
+        <p>₹7000/night – 3 Beds, TV, Private Balcony</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade" id="services" style="background: url('https://i.pinimg.com/originals/00/01/b7/0001b78e170ebcdb347f8f25a721ef6f.jpg') center/cover no-repeat;">
+    <div class="overlay"></div>
+    <h2>Our Services</h2>
+    <ul class="services">
+      <li>✔️ Free WiFi</li>
+      <li>✔️ 24/7 Room Service</li>
+      <li>✔️ Pool & Spa</li>
+      <li>✔️ Airport Pickup</li>
+      <li>✔️ Gym & Yoga Center</li>
+    </ul>
+  </section>
+
+  <section class="section fade" id="booking" style="background: url('https://www.fourseasons.com/alt/img-opt/~80.1530.0,0000-165,9064-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/JAC/JAC_462_original.jpg') center/cover no-repeat;">
+    <div class="overlay"></div>
+    <h2>Book Your Stay</h2>
+    <form class="booking-form" id="bookingForm">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Email Address" required />
+  <input type="date" name="date" required />
+  <input type="number" name="guests" placeholder="No. of Guests" min="1" required />
+  <button type="submit">Confirm Booking</button>
+</form>
+<div id="bookingMessage"></div>
+
+
+  </section>
+  
+
+
+  <footer id="contact">
+    <p>📍 Address: Shivaji Road, Uttarakhand, India</p>
+    <p>📞 Phone: +91-99999-88888 | 📧 Email: info@wisperingpinesinn.com</p>
+    <p>© 2025 WishperingPinesInn. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+</html>
